@@ -3,12 +3,12 @@ using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
 
-	public Controller2D target;
-	public float verticalOffset;
-	public float lookAheadDstX;
-	public float lookSmoothTimeX;
-	public float verticalSmoothTime;
-	public Vector2 focusAreaSize;
+	public Controller2D target; // Character to follow
+	public float verticalOffset; // Vertical camera offset
+	public float lookAheadDstX; // Look-ahead distance on X-axis
+	public float lookSmoothTimeX; // Smoothing time for look-ahead on X-axis
+	public float verticalSmoothTime; // Smoothing time for vertical movement
+	public Vector2 focusAreaSize; // Size of the focus area
 
 	FocusArea focusArea;
 
